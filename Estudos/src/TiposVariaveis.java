@@ -12,5 +12,20 @@ public class TiposVariaveis {
 			/*constante
 			final int VALOR_FIXO = 5;
 			int VALOR_FIXO = 2;  causa o erro pois não pode ser alterado*/
+			
+			//sobre operadores
+			int soma = 1+1;
+			int subtracao = 1-1;
+			int multiplicacao = 2*2;
+			int divisao = 4 / 2;
+			int modulo = 18%3;
+			double resultado = (10+2)*(11-10);
+			
+			System.out.println(soma + " "+subtracao+" "+modulo+" ");
+			
+			
 		}
+		
+			
+		
 }
