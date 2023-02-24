@@ -1,15 +1,20 @@
 
 public class TiposVariaveis {
 		public static void main (String[]args) {
-			System.out.println("Ola, estou usando o eclipse");
-			int a,b;
-			a = 7;
-			b = 5;
-			String resultado = a < b ? "Verdade ":"Falso";
-			System.out.println(resultado);
+			//operadores lógicos:
+			boolean condicao1 = true;
+			boolean condicao2 = false;
+			if(condicao1&&condicao2 ) {
+				System.out.println("Algo esta errado");
+			}else {
+				System.out.println("Esta tudo certo");
+			}
 			
-			
-			//operador ternário:
+			if(condicao1 || condicao2 ) {
+				System.out.println("Esta tudo certo");
+			}else {
+				System.out.println("Algo esta realmente errado");
+			}
 			
 		}
 		
